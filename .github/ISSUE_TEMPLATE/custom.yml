@@ -1,9 +1,29 @@
-name: "버그 리포트"
-description: "버그에 대한 제보와 기록"
-labels: "bugfix"
+name: 'Common Issue Template'
+description: '리팩토링, 퍼포먼스, chore 등 일반적인 이슈에 대한 템플릿'
 body:
+  - type: checkboxes
+    id: pre-checklists
+    attributes:
+      label: Self Checklist
+      options:
+        - label: 나는 중복 이슈가 있는지 확인 했습니다.
+          required: true
+        - label: 나는 적절한 라벨을 설정 했습니다.
+          required: true
+  - type: textarea
+    id: Summary
+    attributes:
+      label: 개요
+      description: '이슈에 대한 요약을 작성해주세요. 목적과 목표를 작성하는 것이 권장됩니다.'
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: '구현까지의 어프로치, 혹은 설계 방향을 고려하고 있는 게 있다면 작성해주세요'
+      description: '지금 없더라도 추가해 나가는 것이 권장됩니다. 코드 블럭 역시 권장됩니다.'
   - type: textarea
     id: additional-context
     attributes:
-      label: References
-      description: Add any other context about the problem you are experiencing here.
+      label: 'References'
+      description: '연관 링크 추가, 그룹, 노션, 피그마 등'
