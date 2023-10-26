@@ -32,7 +32,7 @@ body:
     attributes:
       label: Version of ch-desk-web
       description:
-        ch-desk-web 버전 (console을 열어 확인)
+        "ch-desk-web 버전 (console을 열어 확인)"
     validations:
       required: true
   - type: checkboxes
