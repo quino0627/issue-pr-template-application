@@ -27,3 +27,29 @@ body:
       description: "ch-desk-web 버전 -console을 열어 확인"
     validations:
       required: true
+  - type: checkboxes
+    id: operating-system
+    attributes:
+      label: OS, Environment
+      description: 문제가 발생되는 환경
+      options:
+        - label: 환경 무관
+        - label: Electron
+        - label: Chrome
+        - label: Safari
+        - label: ETC
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: 재현 과정에 대한 설명
+      description: Provide steps to reproduce the problem you are experiencing.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: References
+      description: Add any other context about the problem you are experiencing here.
