@@ -1,6 +1,7 @@
 name: "Bug Report"
 description: "버그에 대한 제보와 기록"
-labels: "bugfix"
+labels:
+  - "bugfix"
 body:
   - type: checkboxes
     id: pre-checklists
