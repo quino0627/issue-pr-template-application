@@ -31,8 +31,7 @@ body:
     id: operating-system
     attributes:
       label: OS, Environment
-      description:
-        문제가 발생되는 환경
+      description: 문제가 발생되는 환경
       options:
         - label: 환경 무관
         - label: Electron
