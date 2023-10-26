@@ -17,7 +17,7 @@ body:
     id: the-problem
     attributes:
       label: 문제상황
-      description: 제보되거나 채널 데스크를 사용하면서 마주한 문제에 대해서 작성 해주세요. 일렉트론이나 베지어 등 외부 패키지의 문제는 해당 레포지토리에서 작성해주세요. UI상으로 문제가 드러나는 경우 스크린샷을 포함해주세요
+      description: "제보되거나 채널 데스크를 사용하면서 마주한 문제에 대해서 작성 해주세요. 일렉트론이나 베지어 등 외부 패키지의 문제는 해당 레포지토리에서 작성해주세요. UI상으로 문제가 드러나는 경우 스크린샷을 포함해주세요"
     validations:
       required: true
   - type: input
@@ -41,8 +41,8 @@ body:
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: 재현 과정에 대한 설명
-      description: Provide steps to reproduce the problem you are experiencing.
+      label: "재현 과정에 대한 설명"
+      description: "Provide steps to reproduce the problem you are experiencing."
       placeholder: |
         1. Go to '...'
         2. Click on '....'
@@ -51,5 +51,5 @@ body:
   - type: textarea
     id: additional-context
     attributes:
-      label: References
-      description: Add any other context about the problem you are experiencing here.
+      label: "References"
+      description: "연관 링크 추가, 그룹, 노션, 피그마 등"
