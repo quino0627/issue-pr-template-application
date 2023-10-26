@@ -3,16 +3,6 @@ description: "버그에 대한 제보와 기록"
 labels: "bugfix"
 body:
   - type: textarea
-    id: steps-to-reproduce
-    attributes:
-      label: 재현 과정에 대한 설명
-      description: Provide steps to reproduce the problem you are experiencing.
-      placeholder: |
-        1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
-        4. See error
-  - type: textarea
     id: additional-context
     attributes:
       label: References
